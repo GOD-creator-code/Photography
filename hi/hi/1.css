@@ -1,0 +1,90 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-image: url(mountain.jpg);
+    background-size:cover;
+}
+h3{
+    margin-left: 20px;
+    margin-top: 25px;
+    text-align: right;
+    margin-right: 1350px;
+    color:wheat;
+    font-family: "Silkscreen", sans-serif;
+
+}
+nav{
+    background-color: none;
+    color:antiquewhite ;
+    font-family:cursive;
+    text-align:right;
+    margin-top: -95px;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 20px;
+}
+nav :hover{
+    color:teal;
+}
+.menu{
+    cursor: pointer;
+}
+
+.snapology:hover{
+    background:none;
+    color: rgb(33, 90, 90);
+    
+}
+.snapology{
+    cursor: pointer;
+}
+h1 {
+    color: rgb(247, 222, 189);
+    font-size: 30px;
+    margin-left: 735px;
+    margin-top: 150px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+h2 {
+    color:rgb(244, 226, 202);
+    margin-left: 850px;
+    font-size: 30px;
+    margin-top: -5px;
+    font-weight:lighter;
+    cursor: pointer;
+}
+.my-button{
+
+    display: inline-block;
+    font-size: 25px;
+    font-family: "Silkscreen", sans-serif;
+    color: aliceblue;
+    background: none;
+    margin-left: 950px;
+    cursor: pointer;
+    border-radius: 80px;
+    border: 2px solid antiquewhite;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 15px;
+}
+.my-button :hover{
+    background-color: darksalmon;
+    color: black;
+}
+h4{
+    margin-left: 20px;
+    margin-top: 25px;
+    text-align: right;
+    margin-right: 1420px;
+    color:wheat;
+    font-family: "Silkscreen", sans-serif; 
+    cursor: pointer;
+}

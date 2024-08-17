@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-image: url(mountain.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-wrapper {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+h3, h4 {
+    color: wheat;
+    font-family: "Silkscreen", sans-serif;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: transparent;
+    color: antiquewhite;
+    font-family: cursive;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: teal;
+}
+
+.main-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+h1 {
+    color: rgb(247, 222, 189);
+    letter-spacing: 4px;
+    margin: 15px 0;
+    font-weight: lighter;
+    cursor: pointer;
+    padding-left: 400px; 
+}
+
+h2 {
+    color: rgb(247, 222, 189);
+    letter-spacing: 4px;
+    margin: 15px 0;
+    font-weight: lighter;
+    cursor: pointer;
+    padding-left: 700px;
+}
+.my-button {
+    display: inline-block;
+    font-size: 25px;
+    font-family: "Silkscreen", sans-serif;
+    color: aliceblue;
+    background: none;
+    border-radius: 80px;
+    border: 2px solid antiquewhite;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 15px;
+    margin-left: 700px;
+}
+
+.my-button:hover {
+    background-color: darksalmon;
+    color: black;
+}

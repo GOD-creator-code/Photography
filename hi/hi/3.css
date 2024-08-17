@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+    font-family: "Silkscreen", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    background-image: url('5.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent background */
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.menu a {
+    color: antiquewhite;
+    font-family: cursive;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.menu a:hover,
+.menu a:focus {
+    color: #fff;
+    outline: none; /* Remove default browser outline */
+}
+
+/* Main Content */
+main {
+    max-width: 600px; /* Increased width for larger screens */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 10px; /* Increased padding for better usability */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #666; /* Highlight the border on focus */
+    outline: none;
+}
+
+/* Button Styling */
+.my-button {
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Silkscreen", sans-serif;
+    color: aliceblue;
+    background: #333;
+    border: none;
+    padding: 10px 20px; /* Increased padding for better usability */
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.my-button:hover,
+.my-button:focus {
+    background-color: antiquewhite;
+    color: #333;
+    outline: none;
+}

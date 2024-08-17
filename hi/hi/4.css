@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: "Silkscreen", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    background-image: url('cc2.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px; /* Add padding to avoid content being hidden behind the fixed navbar */
+}
+
+/* Header and Navigation */
+header {
+    position: fixed; /* Make the header fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: teal;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a {
+    color: antiquewhite;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #004d40; /* Deep teal for section titles */
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
